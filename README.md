@@ -32,6 +32,7 @@ Outputs:
 2. bed file for all sites. 
 
 
+**Mac2 combinations **
 
 The purpose of this file is to read the samplesheet and generate a exhausted list of comparisons between each treatment to all controls 
 
