@@ -1,7 +1,8 @@
 # CodeDumps
 siteseq scripts
-This is a modification of the Camerson 2007 et. al script
-1. Cameron_DumpSites.py 
+
+** This is a modification of the Camerson 2007 et. al script **
+1. Cameron_DumpSites.py
 
 Run command:
  python Cameron_DumpSites.py down_test.bam GRCh38.primary_assembly.genome.fa outfile
