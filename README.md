@@ -1,8 +1,12 @@
 # CodeDumps
 siteseq scripts
-1. Cameron_DumpSites.py (This is a modification of the Camerson 2007 et. al script)
+This is a modification of the Camerson 2007 et. al script
+1. Cameron_DumpSites.py 
+
 Run command:
  python Cameron_DumpSites.py down_test.bam GRCh38.primary_assembly.genome.fa outfile
+
+
 
 Input:
 1. aligned bam file
@@ -13,7 +17,7 @@ Outputs:
 2. all peak coordinates above 5 reads detected and reported in a json file
 
 
-All sites from siteseq
+**All sites from siteseq
 The purpose of db_secondary.py is to read all the genomics coordinates reported in the experiment by siteseq and macs2. Identify overlaps and create a bed file so we can look and the overall coverage across all samples for all identified sites 
 python db_secondary.py path_to_siteseq path_to_macs2_broadpeak
 Input:
