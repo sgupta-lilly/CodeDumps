@@ -38,7 +38,7 @@ def check_overlap(coord1, coord2, min_overlap=5):
 ####SiteSeq coordinates
 # Base path to your JSON files from siteseq. PATH TO SITESEQ FOLDER
 #base_path = '/lrlhps/genomics/prod/lgm/atxn2_siteseq/site_project/bowtie2/merged_library/siteseq_modified/'
-base_path_siteseq = sys.arg[1]
+base_path_siteseq = sys.argv[1]
 # Dictionary to store site occurrences and counts
 site_occurrences = {}
 
@@ -74,7 +74,7 @@ for file_path in json_files:
 
 # Base path to your macs files
 #base_path = '/lrlhps/genomics/prod/lgm/atxn2_siteseq/site_project/bowtie2/merged_library/macs2/broad_peak/'
-base_path_macs2 = sys.arg[2]
+base_path_macs2 = sys.argv[2]
 
 # Dictionary to store site occurrences and counts
 macs_occurrences = {}
